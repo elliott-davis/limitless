@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Sleeping {{cfg.sleep_interval}} seconds..."
+sleep {{cfg.sleep_interval}}
+exec limitless -k "{{pkg.svc_files_path}}/builder-github-app.pem" -a {{cfg.app_id}} -i {{cfg.installation_id}}

@@ -1,0 +1,14 @@
+[package]
+name = "limitless"
+version = "0.1.0"
+authors = ["Elliott Davis <elliott@excellent.io>"]
+
+[dependencies]
+clap = "*"
+frank_jwt = "*"
+futures = "*"
+hyper = "*"
+hyper-tls = "*"
+serde = "*"
+serde_json = "*"
+tokio-core = "*"
